@@ -1,0 +1,32 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "weekly_goal",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "min",
+                "max"
+            ],
+            "fieldValidateRulesMin": "10",
+            "fieldValidateRulesMax": "21"
+        },
+        {
+            "fieldName": "weight_unit",
+            "fieldType": "Units",
+            "fieldValues": "KG,LB",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20180831161719",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "no",
+    "entityTableName": "preferences",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}
